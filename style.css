@@ -1,0 +1,172 @@
+
+body{
+	background: #2F4F4F;
+	color: midnightblue;
+	font-family:"Verdana", Arial,Candera;
+	}
+
+.content {
+  max-width: 1300px;
+  margin: auto;
+  background:lightcyan;
+  padding: 80px;
+}
+		
+#navbar{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	display:inline
+	clear:both;}
+	
+	
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:Teal;
+}
+	
+li {float:left;}
+  
+li a {
+	 display:block;
+	 color:yellowgreen;
+	 text-align: center;
+	 padding:14px 16px;
+	font-size:20px;;
+	 text-decoration: none;}
+
+li a:hover{background-color:turquoise;}
+		
+header {
+	width:100%;
+	height:325px;
+	background-image:url('banner.jpg');
+	background-size: cover;
+	background-position:centre;
+	overflow: hidden;
+	position: relative;
+	border:1px #00cccc;}	
+	
+
+	
+
+	
+ /* banner*/
+ 
+img{max-width: 100%;
+	height: auto;
+	width: auto;
+	margin:auto;
+	display:block;}
+		
+section{ text-align : justyfy;}		
+		
+h1{font-style:oblique;
+	color: lightseagreen;
+	font-size:6em;}
+	
+	
+		
+.textbox{border:10px solid darkturquoise;
+	padding:8px;
+	margin: 20px;
+	width: 340px;
+	height:300px;
+	float:left;
+	text-align: justify;
+	border-radius:20px;
+	border-sizing:border-box;
+	-webkit-border-radius:50px;
+	-moz-border-radius: 50px;}
+	
+	
+	/*image box */
+	
+aside {display: block;
+	overflow:auto;
+	clear:left;
+	max-width: 1100px;
+	margin: auto;}
+	
+	
+.Imagebox {border:10px solid mediumaquamarine;
+	padding:40px;
+	margin:30px;
+	width:300px;
+	height:300px;
+	float:left;
+	border-radius:20px;
+	-webkit-border-radius:50px;
+	-moz-border-radius: 50px;}
+
+		
+  
+footer {
+	background-color: teal;
+	color:white;
+	height:50px;
+	display:block;
+	overflow:auto;
+	clear:left; }
+
+
+/*
+  ##Device = Table, lpads (porait)
+  ##Screen = b/w 768px to 1024px
+  */
+  
+@media(min-width:768px) and (max-width:1024px){
+  body{
+	  color:black;
+	  background-color:#2F4F4F;
+  }
+  
+  header {
+	  width:100%
+	  height:213px;
+	  background-image: url('banner.jpg');
+	  background-size:cover;
+	  border:1px #00cccc;
+  }
+}
+
+/*for mobile phones*/
+
+@media only screen and (max-width:768){
+body { color: 
+		background-color: #2F4F4F;
+}
+
+header{ background size: 0 0;
+}
+
+li{ float:left;
+width:100%;
+background-color: #2F4F4F;
+colour:
+font-size: 48px;
+font-family: verdana;
+}
+li a{
+	display:block;
+	color:
+	text-align: center;
+	padding: 14px x 16px;
+	text-decoration:none;
+	font-size: 48px;
+}
+li a:hover{
+	background-color:
+}
+}
+	
+	
+	
+	
+	
+	
+	
